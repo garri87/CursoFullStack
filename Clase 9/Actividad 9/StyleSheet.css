@@ -1,0 +1,38 @@
+#titulo
+{ 	
+	color: #FFF000;
+	text-align: center;
+	font-family: sans-serif;
+	text-decoration:underline;
+	background-color: #F17311;
+	border: solid;
+	border-color: #DC9806;
+}
+
+#parrafo1
+{ 
+	color: #FBFF00;
+	background-image: url(https://wwfar.awsassets.panda.org/img/banner_rotativo_yaguarete_16740.png);
+	height: 115px;
+	width: 980px; 
+	font-family: sans-serif
+}
+
+#parrafo2
+{ 
+	color: #9F0076;
+	background-image: url(https://wwfar.awsassets.panda.org/img/banner_rotativo_manchas_16741.png);
+	height: 115px;
+	width: 980px; 
+	font-family: sans-serif
+}
+
+#texto1
+{ 
+	color: #F1113D;
+}
+
+#texto2
+{ 
+	color: #F702FF;
+}
