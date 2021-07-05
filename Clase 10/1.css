@@ -1,0 +1,42 @@
+h1{
+	border-style: dotted;}
+
+#caja1,#caja2{
+	background-color: pink;
+	border-style: double;
+	width: 600px;
+	height: 100px;}
+
+#caja3,#caja4{
+	background-color: yellow;
+	border-style: dashed;
+	width: 600px;
+	height: 300px;}
+
+#caja1{
+	position: absolute;
+	left: 3px;
+	top: 100 px;}
+
+#caja2{
+	position: relative;
+	left: 700px;
+	top: 3 px;}
+
+a:link{
+background-color:pink;
+color:blue;}
+a:visited{
+background-color:black;
+color:white;}
+a:hover{
+background-color:violet;
+color:white;}
+a:active{
+background-color:green;
+color:black;}
+
+img{
+	width: 300px;
+	height: 100px;
+	float: right;}

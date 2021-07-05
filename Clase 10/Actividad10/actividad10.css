@@ -1,0 +1,43 @@
+h1{background-color: hotpink;
+	border-style: dotted;
+border-color: green;}
+
+
+#buttonLink{
+
+	background-color: lightblue;
+	border-color: darkred;
+	color: green;
+	border-style: solid;
+}
+
+a:link{
+background-color:pink;
+color:blue;}
+a:visited{
+background-color:black;
+color:white;}
+a:hover{
+background-color:red;
+color:white;}
+a:active{
+background-color:green;
+color:green;}
+
+#caja1{
+	background-color: lightblue;
+	border-style: solid;
+	width: 400px;
+	height: 400px;
+position: relative;
+	left: 50px;
+	top: 20 px;}
+
+#caja2{
+	background-color: lightpink;
+	border-style: solid;
+	width: 200px;
+	height: 200px;
+position: absolute;
+	left: 30px;
+	top: 10 px;}
