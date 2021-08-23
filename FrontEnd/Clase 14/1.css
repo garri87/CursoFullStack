@@ -1,0 +1,16 @@
+h1{
+	color: red;
+}
+
+a:link{
+background-color:skyblue;
+color:blue;}
+a:visited{
+background-color:white;
+color:purple;}
+a:hover{
+background-color:violet;
+color:white;}
+a:active{
+background-color:green;
+color:black;}

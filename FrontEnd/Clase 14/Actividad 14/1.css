@@ -1,0 +1,31 @@
+h1, h2{
+	color: red;
+	font-family: sans-serif;
+}
+
+p{
+	font-family: sans-serif;
+}
+
+a{
+	font-family: sans-serif;
+}
+
+
+a:link
+{
+color:blue;
+}
+a:visited
+{
+color:purple;
+}
+a:hover
+{
+background-color:grey;
+color:white;
+}
+a:active{
+background-color:red;
+color:black;}
+

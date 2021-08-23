@@ -1,0 +1,48 @@
+header{
+	background: #EAEAEA;
+	
+	text-align: center;
+}
+
+h1{
+	font-family: sans-serif;
+	color: #FF5050;
+}
+
+
+nav{
+	text-align: center;
+	background: #818181;
+
+}
+
+a{
+	font-family: sans-serif;
+color: #FFFFFF;
+
+}
+
+section{
+	width: 79%;
+	background: #ccc;
+	float: left;
+	overflow: auto;
+	padding-bottom: 60px;
+	padding-top: 30px;
+}
+aside{
+	float: right;
+	border: 1px solid red;
+	width: 19%;
+	border: 1px solid red;
+}
+footer{
+	position: relative;
+	margin-top: -50px;
+	height: 40px;
+	padding: 5px 0px;
+	clear: both;
+	background: #818181;
+	text-align: center;
+	color: #000000;
+}

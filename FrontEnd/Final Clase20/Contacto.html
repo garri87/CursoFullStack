@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title> Contacto -.Sushi Store.- </title>
+    <link rel="stylesheet" href="ActividadFinal.css">
+    <script src="jquery-3.6.0.js"></script>
+</head>
+
+<body>
+<header>
+
+    <h1>Sushi Store</h1>
+
+    <nav>
+        <ul>
+            <li><a href="Index.html">INICIO</a></li>
+            <li><a href="Carta.html">NUESTRA CARTA</a></li>
+            <li><a href="Contacto.html">CONTACTO</a></li>
+        </ul>
+    </nav>
+
+</header>
+
+<div>
+    <h2>Contáctanos</h2>
+</div>
+
+<div id="formulario">
+    <form action="Index.html" id="form" method="post">
+        <label for="Nombre"> Nombre: </label>  
+        <input type="text" id="nombre" name="Nombre">
+        <br>
+        <label for="Apellido"> Apellido: </label>
+        <input type="text" id="apellido" name="Apellido">
+        <br>
+        <label for="Telefono"> Telefono: </label>
+        <input type="text" id="telefono" name="Telefono">
+        <br>
+        <label for="Fecha"> Fecha de Nacimiento: </label>
+        <input type="date" id="fecha" name="Fecha">
+        <br>
+        <label for="Sexo"> Sexo </label>
+        <select name="Sexo" id="sexo">
+            <option value="Seleccione" >Seleccione</option>
+            <option value="Masculino">Masculino</option>
+            <option value="Femenino"> Femenino</option>
+        </select>
+        <br>
+        <br>
+        <label for="mensaje">Comentarios </label><br>
+        <textarea name="Mensaje" id="mensaje" rows="5" cols="40"> </textarea>
+        <br>
+        <br>
+        <input type="submit" id="enviar" name="Enviar">
+        <input type="reset" id="resetear" name="Resetear">
+        
+        
+    </form>
+</div>
+<br>
+<footer>
+
+    <p> Trabajo final Creado por Pablo Flores para Sicos Informática </p>
+
+</footer>
+<script> 
+    
+    
+    $("#enviar").click(function(){
+        var fName = document.getElementById("nombre").value;
+        var lName = document.getElementById("apellido").value;
+        var phone = document.getElementById("telefono").value;
+         
+         if (fName.length <1){
+             alert("Por favor ingrese su nombre");
+             return false;
+         }
+        if (lName.length <1){
+            alert("Por favor ingrese su apellido");
+            return false;
+        }
+        if (phone.length <1){
+            alert("Por favor ingrese un telefono de contacto");
+            return false;
+        }
+        else{
+            alert("Datos enviados, en breve te contactaremos!")
+            
+        }
+        
+    });
+    
+</script>
+
+</body>
+</html>
